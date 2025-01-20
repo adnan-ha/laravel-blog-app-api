@@ -1,0 +1,69 @@
+:root {
+    --main-color: #b2c9ad;
+    --main2-color: #91ac8fad;
+    --main3-color: #91ac8f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+td,
+th {
+    background-color: var(--main-color) !important;
+    vertical-align: middle;
+}
+
+body,
+.container {
+    background: var(--main-color) !important;
+}
+
+.content {
+    background-color: var(--main2-color);
+}
+
+/* navbar */
+.container .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.navbar {
+    background-color: var(--main3-color);
+}
+
+.navbar-nav .nav-link.active {
+    text-decoration: underline;
+}
+
+.logout_btn {
+    width: 100px;
+}
+
+/* users */
+
+.user_photo {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+/* Categories */
+.dropdown-toggle {
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: none !important;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.category_img {
+    object-fit: cover;
+    width: 75px;
+    height: 75px;
+}
