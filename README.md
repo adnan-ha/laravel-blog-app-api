@@ -1,4 +1,4 @@
-### 📝 Blog API with Admin Dashboard
+# Blog API with Admin Dashboard
 
 ## 📌 Introduction
 This project is a Blog API with full CRUD functionality for managing posts, categories, tags, and comments. The API allows users to interact with the blog content, while an admin dashboard (built with Blade) allows administrators to manage users, categories, and tags.
